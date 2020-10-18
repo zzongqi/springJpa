@@ -1,0 +1,6 @@
+# Project exclude paths
+/JPA/target/
+/SpringDataJPA1/target/
+/SpringDataJPA_2/target/
+/SpringDataJPA_3/target/
+/SpringDataJPA_4/target/
