@@ -4,3 +4,28 @@
 /SpringDataJPA_2/target/
 /SpringDataJPA_3/target/
 /SpringDataJPA_4/target/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/.gitignore
+.idea/.name
+.idea/checkstyle-idea.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/jarRepositories.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/vcs.xml
+JPA/JPA.iml
+JPA/jpa-day1.iml
+SpringDataJPA1/SpringDataJPA1.iml
+SpringDataJPA1/jpa-day2.iml
+SpringDataJPA_2/SpringDataJPA_2.iml
+SpringDataJPA_3/SpringDataJPA_3.iml
+SpringDataJPA_4/SpringDataJPA_4.iml

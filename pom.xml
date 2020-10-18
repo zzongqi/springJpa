@@ -10,8 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>JPA</module>
-        <module>SpringDataJPA1</module>
-        <module>SpringDataJPA2</module>
+        <module>SpringDataJPA_1</module>
         <module>SpringDataJPA_2</module>
         <module>SpringDataJPA_3</module>
         <module>SpringDataJPA_4</module>
