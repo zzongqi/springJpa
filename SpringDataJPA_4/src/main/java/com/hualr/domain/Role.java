@@ -17,6 +17,17 @@ public class Role {
 
     //配置多对多
     @ManyToMany(mappedBy = "roles")  //配置多表关系
+
+  /*  //基本和之前时相反的
+    @ManyToMany(targetEntity = User.class)
+    //第一个值代表外键表
+    @JoinTable(name = "sys_user_role",
+            //joinColumns,当前对象在中间表中的外键
+            joinColumns = {@JoinColumn(name = "sys_roles_id",referencedColumnName = "role_id")},
+            //inverseJoinColumns，对方对象在中间表的外键
+            inverseJoinColumns = {@JoinColumn(name = "sys_user_id",referencedColumnName = "user_id")}
+    )*/
+
     private Set<User> users = new HashSet<>();
 
     public Long getRoleId() {

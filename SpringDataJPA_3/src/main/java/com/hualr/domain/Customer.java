@@ -4,15 +4,7 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * 1.实体类和表的映射关系
- *      @Eitity
- *      @Table
- * 2.类中属性和表中字段的映射关系
- *      @Id
- *      @GeneratedValue
- *      @Column
- */
+
 @Entity
 @Table(name="cst_customer")
 public class Customer {
@@ -50,6 +42,7 @@ public class Customer {
      */
 
 //    @OneToMany(targetEntity = LinkMan.class)
+        //第一个值体现在从表上  第二个值体现是的主表的主键
 //    @JoinColumn(name = "lkm_cust_id",referencedColumnName = "cust_id")
     /**
      * 放弃外键维护权
